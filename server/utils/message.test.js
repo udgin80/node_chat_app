@@ -7,7 +7,7 @@ describe('generateMessage', () => {
         var text = 'Some message';
         var message = generateMessage(from, text);
 
-        expect(typeof message.createdAt).toBe('number');
+          expect(typeof message.createdAt).toBe('number');
       
         expect(message).toMatchObject({
             from: from,
